@@ -9,6 +9,8 @@ function App() {
     <Router>
       <Routes>  {}
         <Route path="/" element={<AlbumList />} />
+        <Route path="/albums/:albumId" element={<AlbumDetails />} />
+        <Route path="/photos" element={<PhotoList />} />
       </Routes>
     </Router>
   );
